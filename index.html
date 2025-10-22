@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Website Portofolio</title>
+  <!-- Perbaikan: pakai style.css (singular) + cache-buster -->
+  <link rel="stylesheet" href="style.css?v=2" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#">Portofolio Noval Suprayoga dan Artikel</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#berita">Berita</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1>Website Portofolio dan Kumpulan Artikel</h1>
+      <p>Website ini berisi Portofolio saya dan Kumpulan berita dan artikel terbaru.</p>
+      <a href="#berita" class="btn">Lihat Berita</a>
+    </section>
+
+    <section id="about" class="container section">
+      <div class="section-head">
+        <h2>Tentang Saya</h2>
+        <p>Saya seorang Staff Purchasing yang cukup berpengalaman dibidang penyediaan dan pengadaan logistik, dengan
+          pengalaman langsung di Industri restoran. Dengan pengalaman ini, saya memupuk pengetahuan yang mumpuni dalam
+          proses penyediaan barang dan pengadaan logistik.
+
+          Saya sangat termotivasi untuk terus belajar dan meningkatkan keahlian yang sudah saya punya dan ingin
+          mempelajari keahlian/hal hal baru. Dengan latar belakang pendidikan di bidang Rekayasa Perangkat Lunak, saya
+          juga memiliki kemampuan dalam pengembangan software.</p>
+      </div>
+      <div class="grid two">
+        <div>
+          <p>
+            Saya juga menyajikan beberapa artikel dan berita terbaru yang mungkin menarik untuk dibaca. Beberapa topik
+            yang sering saya bahas meliputi:
+          </p>
+          <ul class="check-list">
+            <li>Olahraga</li>
+            <li>Ekonomi</li>
+            <li>Politik</li>
+          </ul>
+        </div>
+        <aside class="card">
+          <h3>Highlight</h3>
+          <div class="highlight"></div>
+          <img
+            src="https://cdns.klimg.com/bola.net/resized/810x540/library/upload/21/2025/10/996x664/napolis-giovanni-di-_4ccf3c3.jpg"
+            alt="Ilustrasi pertandingan" />
+          <h4><a href="#berita">PSV Eindhoven Hajar Napoli 5-2</a></h4>
+          <p class="meta">Liga Champions · 2 Okt 2025</p>
+          <p>Napoli dicukur habis 2-5 oleh PSV Eindhoven di matchday kedua Liga Champions. Kekalahan ini membuat peluang
+            Napoli
+            lolos ke fase gugur semakin berat.</p>
+          <a class="readmore" href="#berita">Baca selengkapnya →</a>
+      </div>
+      </aside>
+      </div>
+    </section>
+
+    <section id="berita" class="container section">
+      <div class="section-head">
+        <h2>Berita & Artikel</h2>
+        <p>Update ringan seputar kegiatan & insight terbaru.</p>
+      </div>
+
+      <div class="grid three">
+        <article class="card post">
+          <img
+            src="https://cdns.klimg.com/bola.net/resized/810x540/library/upload/21/2025/10/996x664/napolis-giovanni-di-_4ccf3c3.jpg"
+            alt="Ilustrasi artikel 1" />
+          <div class="post-body">
+            <h3><a href="#">Napoli Dikalahkan PSV Eindhoven Tadi Malam</a></h3>
+            <p>
+              Dalam lanjutan Liga Champions, Napoli harus menelan kekalahan telak 2-5 dari PSV Eindhoven di markas
+              sendiri.
+            </p>
+            <a class="readmore" href="#">Baca selengkapnya →</a>
+          </div>
+        </article>
+
+        <article class="card post">
+          <img
+            src="https://akcdn.detik.net.id/visual/2025/09/19/menteri-keuangan-purbaya-yudhi-sadewa-1758279279754_169.jpeg?w=650&q=90"
+            alt="Ilustrasi artikel 2" />
+          <div class="post-body">
+            <h3><a href="#">Ekonomi Indonesia Tumbuh Stabil di Oktober 2025</a></h3>
+            <p>Dalam laporan terbaru, ekonomi Indonesia menunjukkan pertumbuhan stabil dengan peningkatan sektor
+              industri dan perdagangan, meskipun tantangan global masih ada.</p>
+            <a class="readmore" href="#">Baca selengkapnya →</a>
+          </div>
+        </article>
+
+        <article class="card post">
+          <img src="https://statik.tempo.co/data/2025/10/19/id_1435794/1435794_720.jpg" alt="Ilustrasi artikel 3" />
+          <div class="post-body">
+            <h3><a href="#">Rilis Sekuel Dirty Vote di Momen Satu Tahun Pemerintahan Prabowo-Gibran
+              </a></h3>
+            <p>Sekuel Dirty Vote membongkar cara rezim Prabowo-Gibran mengkonsolidasi tiga kekuatan, politik, hukum dan
+              ekonomi.</p>
+            <a class="readmore" href="#">Baca selengkapnya →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="kontak" class="container section">
+      <div class="section-head">
+        <h2>Kontak</h2>
+        <p>Butuh sesuatu? Kirim pesan, langsung kita gas.</p>
+      </div>
+      <div class="grid two">
+        <form class="card form">
+          <label>Nama
+            <input type="text" placeholder="Nama kamu" required />
+          </label>
+          <label>Email
+            <input type="email" placeholder="email@contoh.com" required />
+          </label>
+          <label>Pesan
+            <textarea rows="5" placeholder="Tulis pesan kamu di sini..." required></textarea>
+          </label>
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+        <div class="card contact-info">
+          <h3>Info Kontak</h3>
+          <div class="socials" aria-label="Social media links">
+            <!-- Ganti URL pada atribut href dengan tautan profil Anda -->
+            <a class="social" href="https://github.com/Supramennn" target="_blank" rel="noopener noreferrer"
+              aria-label="GitHub">GitHub</a>
+            <a class="social" href="https://www.instagram.com/nsuprayoga" target="_blank" rel="noopener noreferrer"
+              aria-label="Instagram">Instagram</a>
+            <a class="social" href="https://wa.me/6281380287565?text=Halo%20Noval" target="_blank"
+              rel="noopener noreferrer" aria-label="WhatsApp">WhatsApp</a>
+            <a class="social" href="mailto:novalsuprayoga@gmail.com" aria-label="Email">Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="y"></span> Noval Suprayoga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
